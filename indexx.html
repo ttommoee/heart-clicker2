@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <title>My heart belongs to you</title>
+    <link rel="stylesheet" href="heart.css">
+</head>
+<body>
+    <div >
+        <h1 class="header_text">Когда нажмёшь 100 раз,</h1>
+        <h1 class="header_text">то произойдёт что-то необычное!</h1>
+    </div>
+    <div class="heart" onclick="increaseCounter()"></div>
+        <div id="counter">0</div>
+        <script>;
+            if ("counter" = 100) {
+                window.location.href = "index.html"
+            }
+            let count = 0;
+            function increaseCounter() {
+                count++;
+                document.getElementById("counter").innerText = count;
+                
+            }
+        </script>
+</body>
+</html>
