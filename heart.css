@@ -9,8 +9,8 @@ body {
 }
 
 .heart {
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
     background-color: #ff0000;
     position: relative;
     transform: rotate(-45deg);
@@ -31,8 +31,8 @@ body {
 .heart:before {
     content: '';
     position: absolute;
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
     top: -50%;
     border-radius: 50px;
     box-shadow: -10px 10px 90px #ff0000;
@@ -40,8 +40,8 @@ body {
 .heart:after {
     content: '';
     position: absolute;
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
     right: -50%;
     border-radius: 50px;
     box-shadow: -10px 10px 90px #ff0000;
@@ -51,11 +51,11 @@ body {
     color: #ffffff;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: medium;
-    margin-top: 20px;
-    align-items: center;
-    justify-content: center;
+   top: 8px;
+   left: 16px;
     font: bold;
 }
+
 #counter {
     font-size: small;
     margin-top: 10px;
