@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #0b1522;
+}
+
+.header_text {
+    font-family: 'Monospace';
+    font-size: small;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
