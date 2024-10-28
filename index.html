@@ -4,22 +4,23 @@
     <link rel="stylesheet" href="heart.css">
 </head>
 <body>
-    <div >
-        <h1 class="header_text">Когда нажмёшь 100 раз,</h1>
-        <h1 class="header_text">то произойдёт что-то необычное!</h1>
-    </div>
-    <button class="heart" onclick="increaseCounter()"></button>
-        <div id="counter">0</div>
-        <script>;
-            if ("counter" = 100) {
-                window.location.href = "indexx.html"
-            }
-            let count = 0;
-            function increaseCounter() {
-                count++;
-                document.getElementById("counter").innerText = count;
+    <div class="container">
+        <div >
+            <h1 class="header_text">Когда нажмёшь 100 раз,</h1>
+            <h1 class="header_text">то произойдёт что-то необычное!</h1>
+        </div>
+        <button class="heart" onclick="increaseCounter()"></button>
+            <div id="counter">0</div>
+            <script>;
+                if ("counter" = 100) {
+                    window.location.href = "indexx.html"
+                }
+                let count = 0;
+                function increaseCounter() {
+                    count++;
+                    document.getElementById("counter").innerText = count;
                 
-            }
-        </script>
+                }
+            </script>
 </body>
 </html>
