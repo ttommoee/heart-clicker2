@@ -57,11 +57,14 @@ body {
 }
 
 #counter {
-    font-size: small;
-    margin-top: 10px;
-    align-items: center;
-    justify-content: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 8px;
+    left: 16px;
+    position: absolute;
     color: #ffffff;
     font: bold;
 }
+
+.container {
+    position: relative;
+}
+
